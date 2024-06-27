@@ -13,7 +13,7 @@ import ProjectsList from "./Components/ProjectsList";
 
 const App = () => {
   return (
-    <BrowserRouter basename="/Portfolio">
+    <BrowserRouter basename="/Portfolio-Website">
       <div>
         <Header />
 
