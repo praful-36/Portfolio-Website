@@ -63,21 +63,27 @@ const Contact = () => {
         <div className="contact-container">
           <div className="contact-left">
             <div className="left-side">
-              <div className="address-details">
+              <div className="address-details sm-info">
                 <img src={images.address} alt="" className="contact-img" />
+                <div className="">
                 <div className="topic">Address</div>
                 <div className="text-one">birla college road,</div>
                 <div className="text-two"> kalyan,maharashtra</div>
+                </div>
               </div>
-              <div className="phone-details">
+              <div className="phone-details sm-info">
                 <img src={images.phone} alt="" className="contact-img" />
+                <div className="">
                 <div className="topic">Phone</div>
                 <div className="text-one">+9186 5509 1639</div>
+                </div>
               </div>
-              <div className="email-details">
+              <div className="email-details sm-info">
                 <img src={images.email} alt="" className="contact-img" />
+                <div className="">
                 <div className="topic">Email</div>
                 <div className="text-one">gosavipraful2@gmail.com</div>
+                </div>
               </div>
             </div>
           </div>
@@ -89,7 +95,7 @@ const Contact = () => {
 
             <hr className="form-hrline" />
 
-            <div className="topic-text">Send me a message</div>
+            <div className="topic-text">Send me a message :-</div>
             <p>
               If you have any work for me or any types of queries related to me, you can send me a message from here.
               It's my pleasure to help you.

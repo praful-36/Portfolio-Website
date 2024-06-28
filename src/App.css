@@ -920,11 +920,34 @@ body {
   }
   
   /* -------------------------------contact-us------------------------------------------ */
-  
+
   @media (max-width: 768px) {
-  
     .contact-container {
+      flex-direction: column;
+      align-items: center;
       margin: 5rem 15px 0 15px;
+    }
+
+    .contact-left .left-side {
+      margin: 0;
+    }
+  
+    .sm-info{
+      display: flex;
+      text-align: start;
+    }
+
+    .contact-left {
+      order: 2;
+      width: 100%;
+      text-align: center;
+      margin: 2rem 0;
+    }
+  
+    .contact-right {
+      order: 1;
+      width: 100%;
+      margin-top: 2rem;
     }
   
     .contact-container h3 {
@@ -933,33 +956,16 @@ body {
       margin: 0;
     }
   
-    .contact-left .left-side {
-      margin: 2rem 0;
-      padding: 0;
-    }
-  
-    .contact-right {
-      width: auto;
-      height: auto;
-      position: static;
-      margin-top: 2rem;
-    }
-  
     .contact-right .topic-text {
-      margin: 20px 0 0;
       width: auto;
     }
   
     .contact-right p {
       width: auto;
-      margin: 20px 0;
       font-size: 18px;
     }
   
-    .input-box input::placeholder {
-      font-size: 12px;
-    }
-  
+    .input-box input::placeholder,
     textarea::placeholder {
       font-size: 12px;
     }
@@ -967,6 +973,10 @@ body {
     .input-box input,
     textarea {
       width: 80%;
+    }
+  
+    .input-box {
+      width: auto;
     }
   
     .form-control {
@@ -982,18 +992,12 @@ body {
       font-size: 17px;
     }
   
-    .form-hrline {
-      max-width: 60%;
-      margin: 0;
-    }
-  
     .confirmation-message {
       display: none;
     }
   }
   
   @media (max-width: 1200px) {
-  
     #contact-us {
       display: flex;
       justify-content: center;
@@ -1004,5 +1008,4 @@ body {
       align-items: center;
     }
   }
-  
   
