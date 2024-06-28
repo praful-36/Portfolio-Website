@@ -16,6 +16,7 @@ const projectsData = [
     description: 'This is my personal space where I showcase my skills, education, and professional journey. Explore to learn more about my passion for front-end development, commitment to clean coding, and ongoing journey of knowledge and growth.',
     technologies: 'React, HTML, CSS',
     status: 'Completed',
+    githubLink: 'https://praful-36.github.io/Portfolio_Website/',
   },
   {
     title: 'Netflix Clone ',
