@@ -4,12 +4,16 @@ import images from '../Components/Images';
 const Education = () => {
 
     const skillLevels = {
-        html: 95,
-        css: 90,
-        javascript: 55,
-        bootstrap: 70,
-        react: 80,
-        next: 20,
+        "html": 90,
+        "css": 90,
+        "javascript": 50,
+        "bootstrap": 50,
+        "TailwindCss":70,
+        "react": 80,
+        "Express": 40,
+        "MongoDB":70,
+        "Github":40,
+        
     };
 
     return (
@@ -70,6 +74,20 @@ const Education = () => {
                             </div>
                         ))}
                     </div>
+
+                    <div className="details-icons">
+                        {Object.keys(skillLevels).slice(6, 9).map((skill, index) => (
+                            <div key={index} className="skill-bar">
+                                <img src={images[skill]} alt={skill} />
+                                <div className="progress-bar">
+                                    <div className="progress-value" style={{ width: `${skillLevels[skill]}%` }}>
+                                        {`${skill}  ${skillLevels[skill]}%`}
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+
                 </div>
             </div>
         </>

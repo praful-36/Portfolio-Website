@@ -28,11 +28,11 @@ const projectsData = [
 
 const miniProjectsData = [
   {
-    title: 'Text Converted React App',
-    description: 'Text converter is react react-based website that allows user to transform their text into different cases like upper and lower case.',
+    title: 'Textify',
+    description: 'Textify is react react-based website that allows user to transform their text into different cases like upper,Lowercase and others.',
     technologies: 'React,HTML,CSS,Bootstrap',
     status: 'Completed',
-    githubLink: 'https://praful-36.github.io/Text-Convert/',
+    githubLink: 'https://praful-36.github.io/Textify/',
   },
   {
     title: 'News API App',

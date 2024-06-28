@@ -4,7 +4,11 @@ import css from "../assets/img/css.png";
 import javascript from "../assets/img/javascript.png";
 import react from "../assets/img/react.png";
 import next from "../assets/img/next.png";
+import Express from "../assets/img/Express.png";
+import TailwindCss from "../assets/img/Tailwindcss(2).png";
+import MongoDB from "../assets/img/mongodb(1).png";
 import bootstrap from "../assets/img/bootstrap.png";
+import Github from "../assets/img/github-logo.png";
 import logo from "../assets/img/logo.jpg";
 import address from "../assets/img/address.png";
 import email from "../assets/img/email.png";
@@ -37,6 +41,10 @@ const images = {
     react,
     next,
     bootstrap,
+    Express,
+    MongoDB,
+    TailwindCss,
+    Github,
     address,
     email,
     phone

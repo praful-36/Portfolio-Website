@@ -326,7 +326,7 @@ body {
   
   .details-icons {
     filter: drop-shadow(9px 7px 2px rgb(22, 22, 22));
-    width: 40%;
+    width: 30%;
   }
 
   /* details silde bar */
@@ -340,6 +340,7 @@ body {
   .skill-bar img {
     width: 40px;
     margin-right: 10px;
+    border-radius: 9px;
   }
   
   .progress-bar {
@@ -358,7 +359,7 @@ body {
     font-weight: 700;
     display: flex;
     align-items: center;
-    justify-content: center;
+    padding-left: 10px;
   }
   
   .education {
@@ -458,10 +459,7 @@ body {
   .contact-details {
     display: flex;
     align-items: center;
-  }
-  
-  .topic {
-    margin-bottom: 10px;
+    margin: 5px;
   }
   
   .socials {
@@ -754,6 +752,7 @@ body {
   
     .left-section-1 {
       padding: 80px 30px 0 30px;
+      font-size: 27px;
     }
   
     .right-section-1 img {
@@ -802,6 +801,10 @@ body {
     .services-container .title p {
       font-size: 22px;
     }
+
+    .text-box-elements{
+      width: 20rem;
+    }
   
     .text-box {
       flex-direction: column;
@@ -820,6 +823,7 @@ body {
   
     .grid-container img {
       margin: 0 auto;
+      width: 20rem;
     }
   
     .details img {
@@ -829,6 +833,7 @@ body {
   
     .grid-container .text-details {
       width: auto;
+      padding: 0px 10px 0 27px;
     }
   
     .details .text-details h2 {
@@ -883,9 +888,7 @@ body {
   
   @media (max-width: 768px) {
   
-    .footer-text p {
-      text-align: start;
-    }
+ 
   
     .contacts {
       flex-direction: column;
@@ -909,6 +912,10 @@ body {
   
     .description{
       height: 200px;
+    }
+    
+    .projects{
+      width: 283px;
     }
   }
   
