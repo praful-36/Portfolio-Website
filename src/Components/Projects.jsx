@@ -8,7 +8,7 @@ const Projects = ({ title, description, technologies, status, githubLink }) => {
       <p  className='description'>{description}</p>
       <p>Technologies: {technologies}</p>
       <p>Status: {status}</p>
-      <p>No live link available</p>
+      {/* <p>No live link available</p> */}
 
       {githubLink ? (
         <a href={githubLink} target="_blank" rel="noopener noreferrer">

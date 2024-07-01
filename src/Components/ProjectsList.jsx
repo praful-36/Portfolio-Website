@@ -7,16 +7,22 @@ const projectsData = [
   {
     title: 'Inotebook React app ',
     description: 'Introducing iNotebook: the game-changing React app for effortless note-taking. Experience seamless writing, deleting, and secure saving, all with advanced privacy. With robust login and sign-up, your notes stay confidential. hassle-free note-taking with iNotebook.',
-    technologies: 'React,HTML,CSS',
+    technologies: 'React,Bootstrap,MongoDB,ExpressJs',
     status: 'Completed',
-    githubLink: 'https://praful-36.github.io/Inotebook_React-app/',
+    githubLink: 'https://praful-36.github.io/NoteExpress/',
   },
   {
     title: 'Praful.io',
     description: 'This is my personal space where I showcase my skills, education, and professional journey. Explore to learn more about my passion for front-end development, commitment to clean coding, and ongoing journey of knowledge and growth.',
-    technologies: 'React, HTML, CSS',
+    technologies: 'React,Bootstrap,MongoDB,ExpressJs',
     status: 'Completed',
     githubLink: 'https://praful-36.github.io/Portfolio_Website/',
+  },
+  {
+    title: 'TodoTimes',
+    description: 'TodoTimes is App thats lets you store your daily Todos',
+    technologies: 'React,Bootstrap,MongoDB,ExpressJs',
+    status: 'Ongoing',
   },
   {
     title: 'Netflix Clone ',
@@ -31,7 +37,7 @@ const miniProjectsData = [
   {
     title: 'Textify',
     description: 'Textify is react react-based website that allows user to transform their text into different cases like upper,Lowercase and others.',
-    technologies: 'React,HTML,CSS,Bootstrap',
+    technologies: 'React,Bootstrap',
     status: 'Completed',
     githubLink: 'https://praful-36.github.io/Textify/',
   },
@@ -45,8 +51,16 @@ const miniProjectsData = [
   {
     title: 'Ecommerece Shop',
     description: 'Ecommerece Shop is react application that render products from strapi backend server into frontend website  ',
-    technologies: 'React,HTML,CSS,tailwind css',
-    status: 'ongoing',
+    technologies: 'React,TailwindCss',
+    status: 'Completed',
+    githubLink: 'https://praful-36.github.io/Ecommerce_shop/',
+  },
+  {
+    title: 'Sales-Order-Management',
+    description: 'This Website is designed to provide users with an intuitive interface to manage sales orders efficiently.',
+    technologies: 'React,Chakra-UI',
+    status: 'Completed',
+    githubLink: 'https://praful-36.github.io/Sales-Order-Management/',
   },
 
 ];

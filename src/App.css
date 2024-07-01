@@ -697,6 +697,10 @@ body {
   text-align: center;
 }
 
+.project h1{
+  margin:40px 0;
+}
+
 .projects h2 {
   font-size: 35px;
   margin: 0;
@@ -708,7 +712,7 @@ body {
 
 .project-items {
   display: flex;
-  gap: 30px;
+  gap: 20px;
 }
 
 .description{
