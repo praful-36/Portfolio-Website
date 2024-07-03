@@ -6,7 +6,7 @@ const Projects = ({ title, description, technologies, status, githubLink }) => {
     <div id='projects' className="projects">
       <h3>{title}</h3>
       <p  className='description'>{description}</p>
-      <p>Technologies: {technologies}</p>
+      <p>Technologies :- {technologies}</p>
       <p>Status: {status}</p>
       {/* <p>No live link available</p> */}
 

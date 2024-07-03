@@ -7,22 +7,23 @@ const projectsData = [
   {
     title: 'Inotebook React app ',
     description: 'Introducing iNotebook: the game-changing React app for effortless note-taking. Experience seamless writing, deleting, and secure saving, all with advanced privacy. With robust login and sign-up, your notes stay confidential. hassle-free note-taking with iNotebook.',
-    technologies: 'React,Bootstrap,MongoDB,ExpressJs',
+    technologies:' React , Bootstrap , MongoDB , ExpressJs',
     status: 'Completed',
     githubLink: 'https://praful-36.github.io/NoteExpress/',
   },
   {
     title: 'Praful.io',
     description: 'This is my personal space where I showcase my skills, education, and professional journey. Explore to learn more about my passion for front-end development, commitment to clean coding, and ongoing journey of knowledge and growth.',
-    technologies: 'React,Bootstrap,MongoDB,ExpressJs',
+    technologies:' React , Bootstrap , MongoDB , ExpressJs',
     status: 'Completed',
     githubLink: 'https://praful-36.github.io/Portfolio_Website/',
   },
   {
     title: 'TodoTimes',
-    description: 'TodoTimes is App thats lets you store your daily Todos',
-    technologies: 'React,Bootstrap,MongoDB,ExpressJs',
-    status: 'Ongoing',
+    description: 'TodoTimes: Efficiently manage tasks with features like add, edit, delete, save, and search. Organize by priority and category, highlight important tasks, and enjoy a dark mode for comfortable viewing. TodoTimes ensures you stay productive and organized.',
+    technologies: 'React,TailWind Css',
+    status: 'Completed',
+    githubLink: 'https://praful-36.github.io/TodoTimes/',
   },
   {
     title: 'Netflix Clone ',
